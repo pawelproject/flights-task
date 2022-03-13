@@ -13,7 +13,6 @@ export const Flights: FC<IFlightsProps> = (props) => {
 
   useEffect(() => {
     dispatch(fetchData());
-    console.log("test");
   }, []);
 
   return (
